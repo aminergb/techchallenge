@@ -1,0 +1,11 @@
+CREATE DATABASE argonautesdb;
+
+use argonautesdb
+CREATE  TABLE IF NOT EXISTS `argonautes` (
+  `id` BIGINT UNSIGNED AUTO_INCREMENT,
+  `first_name` VARCHAR(255) NOT NULL,
+  `last_name` VARCHAR(255) NOT NULL,
+  `age` VARCHAR(50) NOT NULL,
+  `formation` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
